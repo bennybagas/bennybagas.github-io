@@ -7,7 +7,7 @@ body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica
 /* Background: will use local image if present via .bg class */
 .bg{
   position:fixed; inset:0; background-size:cover; background-position:center; z-index:0;
-  background-image: url('assets/background.jpg'), linear-gradient(180deg, #f7b7d0 0%, #ffd3b6 50%, #c6f1e7 100%);
+  background-image: url('assets/bg.png'), linear-gradient(180deg, #f7b7d0 0%, #ffd3b6 50%, #c6f1e7 100%);
   filter: saturate(1.05) contrast(0.95);
 }
 .overlay{position:fixed; inset:0; background: linear-gradient(180deg, rgba(0,0,0,0.35), rgba(0,0,0,0.55)); z-index:1;}
